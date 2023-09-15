@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+// TailwindCSS
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+// BASE 
+@import "base/font-face";
+
+// COMPONENTS
+
+// LAYOUTS
+
+// MAIN_STYLESHEET
+@import "./base/variables";
+@import "./main/main";

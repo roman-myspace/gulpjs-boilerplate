@@ -1,0 +1,18 @@
+{% extends "_base.html" %} {% block content %}
+<div>
+  <h1 class="text-2xl font-extrabold text-black">Hello World</h1>
+
+  <div class="" x-data="{ open: false }">
+    <button @click="open = !open" class="border px-6 py-2 rounded-lg mt-4">
+      Expand
+    </button>
+
+    <div x-show="open" class="block p-4 rounded-lg mt-2 w-4/12 bg-blue-100">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga magni
+      accusamus quaerat, ab natus laudantium, doloremque laboriosam quidem
+      sapiente numquam quam maxime ad mollitia dicta in minima delectus totam
+      quae?
+    </div>
+  </div>
+</div>
+{% endblock %}
